@@ -6,11 +6,10 @@
 
 # DESCRIPTION
 
-distrobox-enter takes care of entering the container with the name specified.
-Default command executed is your SHELL, but you can specify different shells or
-entire commands to execute.
-If using it inside a script, an application, or a service, you can specify the
---headless mode to disable tty and interactivity.
+`distrobox-enter` takes care of entering the specified container.
+By default, your SHELL command will be run, but you can specify different shells or even entire commands to execute.
+
+For use as part of a script, an application, or a service, the headless mode can be enabled via `--no-tty` to omit instantiation of a tty and disable any interactivity.
 
 # SYNOPSIS
 
